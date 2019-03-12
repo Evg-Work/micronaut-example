@@ -12,7 +12,7 @@ version "0.1"
 group "com.micronaut"
 
 repositories {
-    mavenLocal()
+    //mavenLocal()
     mavenCentral()
     maven { url "https://jcenter.bintray.com" }
 }
