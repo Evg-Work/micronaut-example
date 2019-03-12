@@ -1,0 +1,10 @@
+micronaut:
+    application:
+       name: micronaut
+    server:
+       port: 8081
+    router:
+        static-resources:
+            swagger:
+                paths: classpath:META-INF/swagger
+                mapping: /swagger/**
